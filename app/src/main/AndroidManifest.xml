@@ -18,6 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".OccupancyGraphActivity"
+            android:label="@string/title_activity_occupancy_graph"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PercentageGraphActivity"
+            android:label="@string/title_activity_percentage_graph" />
+        <activity
+            android:name=".PowerGraphManager"
+            android:label="@string/title_activity_power_graph_manager"></activity>
     </application>
 
 </manifest>
